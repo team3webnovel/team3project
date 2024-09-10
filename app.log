@@ -1,0 +1,43 @@
+2024-09-06 14:58:48,681 [DEBUG] Calling on_field_start with no data
+2024-09-06 14:58:48,683 [DEBUG] Calling on_field_name with data[0:6]
+2024-09-06 14:58:48,683 [DEBUG] Calling on_field_data with data[7:19]
+2024-09-06 14:58:48,683 [DEBUG] Calling on_field_end with no data
+2024-09-06 14:58:48,683 [DEBUG] Calling on_end with no data
+2024-09-06 14:58:48,683 [INFO] Running function: generate_music_from_suno
+2024-09-06 14:58:48,683 [DEBUG] Arguments: ('human secret', False), {}
+2024-09-06 14:58:48,685 [DEBUG] Starting new HTTP connection (1): localhost:3000
+2024-09-06 14:59:05,563 [DEBUG] http://localhost:3000 "POST /api/generate HTTP/1.1" 200 None
+2024-09-06 14:59:05,565 [DEBUG] Return value: [{'id': '2819642d-14ae-4bc3-bc48-f1ba3e0e4070', 'title': 'Human Secret', 'image_url': 'https://cdn2.suno.ai/image_2819642d-14ae-4bc3-bc48-f1ba3e0e4070.jpeg', 'lyric': '[Verse]\nHeartbeats in the night\nSilent whispers call\nEyes meet without a word\nFeeling it all\n[Verse 2]\nHidden truth inside\nLocked away so deep\nSmile like mystery\nSecrets we keep\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n[Verse 3]\nAcross the crowded room\nA spark that never dies\nLost in this maze\nWhere secrets lie\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n[Bridge]\nNight fades to dawn\nTruth in our eyes\nUnveiling our heart\nNo more disguise', 'audio_url': 'https://audiopipe.suno.ai/?item_id=2819642d-14ae-4bc3-bc48-f1ba3e0e4070', 'video_url': '', 'created_at': '2024-09-06T05:58:50.956Z', 'model_name': 'chirp-v3.5', 'status': 'streaming', 'gpt_description_prompt': 'human secret', 'prompt': '[Verse]\nHeartbeats in the night\nSilent whispers call\nEyes meet without a word\nFeeling it all\n\n[Verse 2]\nHidden truth inside\nLocked away so deep\nSmile like mystery\nSecrets we keep\n\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n\n[Verse 3]\nAcross the crowded room\nA spark that never dies\nLost in this maze\nWhere secrets lie\n\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n\n[Bridge]\nNight fades to dawn\nTruth in our eyes\nUnveiling our heart\nNo more disguise', 'type': 'gen', 'tags': 'pop electronic'}, {'id': 'a5570693-327e-477e-b566-a4312c69edbf', 'title': 'Human Secret', 'image_url': 'https://cdn2.suno.ai/image_a5570693-327e-477e-b566-a4312c69edbf.jpeg', 'lyric': '[Verse]\nHeartbeats in the night\nSilent whispers call\nEyes meet without a word\nFeeling it all\n[Verse 2]\nHidden truth inside\nLocked away so deep\nSmile like mystery\nSecrets we keep\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n[Verse 3]\nAcross the crowded room\nA spark that never dies\nLost in this maze\nWhere secrets lie\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n[Bridge]\nNight fades to dawn\nTruth in our eyes\nUnveiling our heart\nNo more disguise', 'audio_url': 'https://audiopipe.suno.ai/?item_id=a5570693-327e-477e-b566-a4312c69edbf', 'video_url': '', 'created_at': '2024-09-06T05:58:50.956Z', 'model_name': 'chirp-v3.5', 'status': 'streaming', 'gpt_description_prompt': 'human secret', 'prompt': '[Verse]\nHeartbeats in the night\nSilent whispers call\nEyes meet without a word\nFeeling it all\n\n[Verse 2]\nHidden truth inside\nLocked away so deep\nSmile like mystery\nSecrets we keep\n\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n\n[Verse 3]\nAcross the crowded room\nA spark that never dies\nLost in this maze\nWhere secrets lie\n\n[Chorus]\nHuman secret¡¯s here\nFeel it in the air\nNo words need to speak\nOur souls are bare\n\n[Bridge]\nNight fades to dawn\nTruth in our eyes\nUnveiling our heart\nNo more disguise', 'type': 'gen', 'tags': 'pop electronic'}]
+2024-09-06 14:59:05,590 [INFO] Finished generate_music_from_suno in 16.9067 seconds
+2024-09-06 14:59:05,590 [INFO] Running function: download_music
+2024-09-06 14:59:05,590 [DEBUG] Arguments: ('https://audiopipe.suno.ai/?item_id=2819642d-14ae-4bc3-bc48-f1ba3e0e4070', 'C:\\Users\\201-29\\PycharmProjects\\PP\\routers\\../suno/generated_music\\music_1.mp3'), {}
+2024-09-06 14:59:05,592 [DEBUG] Starting new HTTPS connection (1): audiopipe.suno.ai:443
+2024-09-06 14:59:06,301 [DEBUG] https://audiopipe.suno.ai:443 "GET /?item_id=2819642d-14ae-4bc3-bc48-f1ba3e0e4070 HTTP/1.1" 200 None
+2024-09-06 15:00:54,015 [DEBUG] Return value: None
+2024-09-06 15:00:54,016 [INFO] Finished download_music in 108.4249 seconds
+2024-09-06 15:00:54,016 [INFO] Running function: download_music
+2024-09-06 15:00:54,016 [DEBUG] Arguments: ('https://audiopipe.suno.ai/?item_id=a5570693-327e-477e-b566-a4312c69edbf', 'C:\\Users\\201-29\\PycharmProjects\\PP\\routers\\../suno/generated_music\\music_2.mp3'), {}
+2024-09-06 15:00:54,017 [DEBUG] Starting new HTTPS connection (1): audiopipe.suno.ai:443
+2024-09-06 15:00:54,848 [DEBUG] https://audiopipe.suno.ai:443 "GET /?item_id=a5570693-327e-477e-b566-a4312c69edbf HTTP/1.1" 200 None
+2024-09-06 15:01:24,920 [DEBUG] Return value: None
+2024-09-06 15:01:24,921 [INFO] Finished download_music in 30.9052 seconds
+2024-09-06 16:19:22,607 [INFO] Running function: get_generate_image_page
+2024-09-06 16:19:22,607 [DEBUG] Arguments: (), {'request': <starlette.requests.Request object at 0x00000206D2C0E9B0>}
+2024-09-06 16:19:22,607 [DEBUG] Return value: <coroutine object get_generate_image_page at 0x00000206D2C30CF0>
+2024-09-06 16:19:22,608 [INFO] Finished get_generate_image_page in 0.0010 seconds
+2024-09-06 16:23:02,456 [INFO] Running function: get_generate_image_page
+2024-09-06 16:23:02,456 [DEBUG] Arguments: (), {'request': <starlette.requests.Request object at 0x000001B457999750>}
+2024-09-06 16:23:02,456 [DEBUG] Return value: <coroutine object get_generate_image_page at 0x000001B4579D4660>
+2024-09-06 16:23:02,457 [INFO] Finished get_generate_image_page in 0.0010 seconds
+2024-09-06 16:23:05,349 [INFO] Running function: get_generate_image_page
+2024-09-06 16:23:05,349 [DEBUG] Arguments: (), {'request': <starlette.requests.Request object at 0x000001B457999570>}
+2024-09-06 16:23:05,349 [DEBUG] Return value: <coroutine object get_generate_image_page at 0x000001B457AEA5E0>
+2024-09-06 16:23:05,349 [INFO] Finished get_generate_image_page in 0.0000 seconds
+2024-09-06 16:23:12,287 [INFO] Running function: get_generate_image_page
+2024-09-06 16:23:12,287 [DEBUG] Arguments: (), {'request': <starlette.requests.Request object at 0x000001B457998310>}
+2024-09-06 16:23:12,287 [DEBUG] Return value: <coroutine object get_generate_image_page at 0x000001B457B25D90>
+2024-09-06 16:23:12,288 [INFO] Finished get_generate_image_page in 0.0010 seconds
+2024-09-06 16:24:49,512 [INFO] Running function: get_generate_image_page
+2024-09-06 16:24:49,513 [DEBUG] Arguments: (), {'request': <starlette.requests.Request object at 0x00000232DF17C700>}
+2024-09-06 16:24:49,513 [DEBUG] Return value: <coroutine object get_generate_image_page at 0x00000232DF1A0740>
+2024-09-06 16:24:49,513 [INFO] Finished get_generate_image_page in 0.0000 seconds

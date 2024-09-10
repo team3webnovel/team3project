@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <img src="/static/images/logo.png" alt="logo" class="logo">
+            <h2>당신의 이야기를 꾸며드릴게요!<br>자유 연재 플랫폼 아일란드</h2>
+        </div>
+
+        <form action="/login" method="post" class="login-form">
+            <input type="text" id="email" name="email" placeholder="아이디" required><br>
+            <input type="password" id="password" name="password" placeholder="비밀번호" required><br>
+            <button type="submit" class="login-btn">로그인</button>
+        </form>
+
+        <div class="login-options">
+            <a href="#">아이디 찾기</a> |
+            <a href="#">비밀번호 재설정</a> |
+            <a href="/register">회원가입</a> <!-- 회원가입 링크 수정 -->
+        </div>
+
+        <div class="social-login">
+            <a href="#" class="kakao-login"><img src="/static/icons/kakao-icon.png" alt="Kakao"></a>
+            <a href="#" class="naver-login"><img src="/static/icons/naver-icon.png" alt="Naver"></a>
+            <a href="#" class="google-login"><img src="/static/icons/google-icon.png" alt="Google"></a>
+        </div>
+    </div>
+</body>
+</html>

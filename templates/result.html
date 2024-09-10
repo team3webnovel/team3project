@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Music Result</title>
+</head>
+<body>
+    <h1>Generated Music</h1>
+
+    {% if music_list %}
+        {% for music_info in music_list %}
+            <div>
+                <h2>{{ music_info.title or 'Untitled' }}</h2>
+                {% if music_info.image_url %}
+                    <img src="{{ music_info.image_url }}" alt="Music Image" style="width:200px;height:auto;">
+                {% endif %}
+                <p><strong>Lyrics:</strong></p>
+                <p>{{ music_info.lyric | replace('\n', '<br>')|safe }}</p>  <!-- 줄 띄움 적용 -->
+
+                {% if music_info.audio_url %}
+                    <audio controls>
+                        <source src="{{ music_info.audio_url }}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                {% else %}
+                    <p>Audio is not yet available.</p>
+                {% endif %}
+                <hr>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Music generation failed or no music information found.</p>
+    {% endif %}
+
+    <form action="/" method="get">
+        <button type="submit">Generate Another Music</button>
+    </form>
+</body>
+</html>

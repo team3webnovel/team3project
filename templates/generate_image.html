@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Image</title>
+</head>
+<body>
+    <h1>Generate Image</h1>
+    <form action="/generate-image" method="post">
+        <label for="prompt">Enter your prompt:</label><br>
+        <textarea id="prompt" name="prompt" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Generate Image">
+    </form>
+
+    {% if image_urls %}
+        <h2>Generated Images</h2>
+        <div>
+            {% for url in image_urls %}
+                <div>
+                    <img src="{{ url }}" alt="Generated Image" style="max-width: 100%; height: auto;">
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if error_message %}
+        <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+</body>
+</html>

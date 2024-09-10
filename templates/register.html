@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="/static/css/register.css">
+    <script src="/static/js/password-strength.js" defer></script> <!-- JS 파일 로드 -->
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-header">
+            <h2>회원가입</h2>
+            <p>자유 연재 플랫폼에 오신 것을 환영합니다.</p>
+        </div>
+
+        <form action="/register" method="post" class="register-form">
+            <input type="text" id="username" name="username" placeholder="아이디" required><br>
+            <input type="email" id="email" name="email" placeholder="이메일" required><br>
+            <input type="password" id="password" name="password" placeholder="비밀번호" oninput="checkPasswordStrength()" required><br>
+
+            <!-- 비밀번호 강도 표시 영역 -->
+            <div id="strength-wrapper">
+                <div id="strength-bar"></div>
+                <span id="strength-text"></span>
+            </div>
+
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="비밀번호 확인" oninput="checkPasswordMatch()" required><br>
+
+            <!-- 비밀번호 일치 여부 표시 -->
+            <span id="password-match-message"></span>
+
+            <button type="submit" class="register-btn">회원가입</button>
+        </form>
+
+        <div class="login-link">
+            이미 계정이 있으신가요? <a href="/login">로그인</a>
+        </div>
+    </div>
+</body>
+</html>
