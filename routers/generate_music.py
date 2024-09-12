@@ -1,7 +1,8 @@
+import subprocess
+import os
 from fastapi import APIRouter, Request, Form
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
-import os
 from suno_functions import generate_music_from_suno, download_music
 from logger import log_function_call
 
@@ -14,6 +15,15 @@ templates = Jinja2Templates(directory=os.path.join(os.path.dirname(__file__), ".
 music_output_dir = os.path.join(os.path.dirname(__file__), "../suno/generated_music")
 if not os.path.exists(music_output_dir):
     os.makedirs(music_output_dir)
+
+# suno-api 실행 함수
+def start_suno_api():
+    try:
+        process = subprocess.Popen(["npm", "start"], cwd="./suno/suno-api", shell=True)
+        process.communicate()
+        print("suno-api started successfully.")
+    except Exception as e:
+        print(f"Failed to start suno-api: {str(e)}")
 
 
 # GET 요청: 음악 생성 폼을 제공
@@ -30,6 +40,9 @@ async def generate_music(request: Request,
                          prompt: str = Form(...),
                          make_instrumental: bool = Form(False)):
     try:
+        # suno-api 시작
+        start_suno_api()
+
         # 비동기 함수 호출 시 await 사용
         music_data = await generate_music_from_suno(prompt, make_instrumental)
 

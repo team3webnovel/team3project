@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from routers import generate_music, generate_image, login, register  # login 라우터 추가
+from routers import generate_music, generate_image, login, register  # 추가된 라우터들
 from logger import log_function_call
 
 app = FastAPI()

@@ -1,16 +1,21 @@
 from fastapi import APIRouter, Form, Request
-from fastapi.responses import HTMLResponse, RedirectResponse  # RedirectResponse를 fastapi.responses에서 가져옴
+from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 import httpx
 import os
 import logging
+import base64
 
 from logger import log_function_call
 
 router = APIRouter()
 templates = Jinja2Templates(directory=os.path.join(os.path.dirname(__file__), "../templates"))
 
-LEONARDO_API_KEY = "c28bebbb-779e-45b7-8255-d7600eb35f2f"
+# Base64로 인코딩된 API 키 (파워셸에서 인코딩한 값으로 대체하세요)
+encoded_api_key = "NmYzNjE3ZjYtOTUwYi00MDlmLThhODMtZjhmNGYwYzY2ZmIx"
+
+# Base64로 인코딩된 값을 디코딩하여 API 키로 사용
+LEONARDO_API_KEY = base64.b64decode(encoded_api_key).decode('utf-8')
 
 
 @log_function_call
