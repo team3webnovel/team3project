@@ -4,9 +4,14 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from routers import generate_music, generate_image, login, register  # 추가된 라우터들
 from logger import log_function_call
+import logging
+
+# 기본 로깅 설정
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 
 app = FastAPI()
-
+logger.debug("FastAPI 애플리케이션이 실행되었습니다.")
 templates = Jinja2Templates(directory="templates")
 
 app.mount("/static", StaticFiles(directory="static"), name="static")

@@ -17,6 +17,7 @@ if not os.path.exists(music_output_dir):
     os.makedirs(music_output_dir)
 
 # suno-api 실행 함수
+@log_function_call
 def start_suno_api():
     try:
         process = subprocess.Popen(["npm", "start"], cwd="./suno/suno-api", shell=True)

@@ -4,28 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generate Image</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .error { color: red; }
+        .success { color: green; }
+        .image-container img { max-width: 100%; height: auto; }
+    </style>
 </head>
 <body>
     <h1>Generate Image</h1>
+
+    <!-- 이미지 생성을 위한 폼 -->
     <form action="/generate-image" method="post">
         <label for="prompt">Enter your prompt:</label><br>
         <textarea id="prompt" name="prompt" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="modelId">Model ID:</label><br>
+        <input type="text" id="modelId" name="modelId" value="e71a1c2f-4f80-4800-934f-2c68979d8cc8" required><br><br>
+
+        <label for="num_images">Number of Images:</label><br>
+        <input type="number" id="num_images" name="num_images" value="4" required><br><br>
+
+        <label for="width">Width:</label><br>
+        <input type="number" id="width" name="width" value="1024" required><br><br>
+
+        <label for="height">Height:</label><br>
+        <input type="number" id="height" name="height" value="768" required><br><br>
+
+        <label for="guidance_scale">Guidance Scale:</label><br>
+        <input type="number" id="guidance_scale" name="guidance_scale" value="7" required><br><br>
+
+        <label for="promptMagic">Use Prompt Magic:</label><br>
+        <input type="checkbox" id="promptMagic" name="promptMagic" checked><br><br>
+
         <input type="submit" value="Generate Image">
     </form>
 
+    <!-- 이미지 상태에 따라 처리 -->
     {% if image_urls %}
         <h2>Generated Images</h2>
-        <div>
+        <div class="image-container">
             {% for url in image_urls %}
                 <div>
-                    <img src="{{ url }}" alt="Generated Image" style="max-width: 100%; height: auto;">
+                    <img src="{{ url }}" alt="Generated Image">
                 </div>
             {% endfor %}
         </div>
-    {% endif %}
-
-    {% if error_message %}
-        <p style="color: red;">{{ error_message }}</p>
+    {% elif error_message %}
+        <p class="error">{{ error_message }}</p>
+    {% else %}
+        <p class="success">Image is being generated. Please wait...</p>
     {% endif %}
 </body>
 </html>

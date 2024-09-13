@@ -1,0 +1,135 @@
+2024-09-12 14:17:51,804 - INFO - �����ͺ��̽� ���� �õ� ��...
+2024-09-12 14:18:54,851 - INFO - �����ͺ��̽� ���� �õ� ��...
+2024-09-12 14:19:58,016 - INFO - �����ͺ��̽� ���� �õ� ��...
+2024-09-12 14:21:01,042 - ERROR - DB ���� �Ǵ� ���� ���� �� ���� �߻�: ORA-28759: ���� ���� ����
+2024-09-12 14:22:26,751 - INFO - 데이터베이스 연결 시도 중...
+2024-09-12 14:23:29,672 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-28759: 파일 열기 실패
+2024-09-13 09:36:02,858 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 09:36:04,162 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 09:37:20,051 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 09:37:20,305 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 09:46:03,821 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 09:46:04,060 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 09:53:48,502 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 09:53:48,754 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:01:18,312 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 10:01:40,458 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 10:01:41,636 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+2024-09-13 10:03:24,552 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 10:03:24,857 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:05:35,433 - INFO - 데이터베이스 연결 시도 중...
+2024-09-13 10:05:35,724 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:09:01,464 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\Users\201-29\PycharmProjects\PP\wallet\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:09:02,582 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:09:49,130 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\Users\201-29\PycharmProjects\PP\wallet\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:09:49,421 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:13:30,253 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\Users\201-29\PycharmProjects\PP\wallet\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:13:30,502 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:15:02,289 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\Users\201-29\PycharmProjects\PP\wallet\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:15:02,569 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:15:48,359 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:16:50,753 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-28759: 파일 열기 실패
+2024-09-13 10:18:10,529 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:18:11,026 - INFO - DB 연결 성공
+2024-09-13 10:18:11,034 - INFO - 쿼리 실행 성공, 결과: ('X',)
+2024-09-13 10:18:11,047 - INFO - DB 연결 종료
+2024-09-13 10:50:38,611 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\Users\201-29\PycharmProjects\PP\wallet\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:50:39,632 - ERROR - DB 연결 또는 쿼리 실행 중 오류 발생: ORA-12547: TNS:연결이 끊어졌습니다
+2024-09-13 10:51:10,021 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 10:51:10,416 - INFO - DB 연결 성공
+2024-09-13 10:51:10,423 - INFO - 쿼리 실행 성공, 결과: ('X',)
+2024-09-13 10:51:10,433 - INFO - DB 연결 종료
+2024-09-13 11:03:15,248 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:03:15,591 - INFO - DB 연결 성공
+2024-09-13 11:03:15,596 - INFO - 쿼리 실행 성공, 결과: ('X',)
+2024-09-13 11:03:15,608 - INFO - DB 연결 종료
+2024-09-13 11:10:48,124 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:10:48,434 - INFO - DB 연결 성공
+2024-09-13 11:10:48,440 - INFO - 쿼리 실행 성공, 결과: ('X',)
+2024-09-13 11:10:48,452 - INFO - DB 연결 종료
+2024-09-13 11:30:29,056 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:30:29,441 - INFO - DB 연결 성공
+2024-09-13 11:30:29,446 - INFO - 쿼리 실행 성공, 결과: ('X',)
+2024-09-13 11:30:29,458 - INFO - DB 연결 종료
+2024-09-13 11:30:48,042 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:30:48,420 - INFO - DB 연결 성공
+2024-09-13 11:30:48,433 - INFO - 쿼리 실행 성공, 결과: None
+2024-09-13 11:30:48,445 - INFO - DB 연결 종료
+2024-09-13 11:32:14,463 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:32:14,848 - INFO - DB 연결 성공
+2024-09-13 11:32:14,863 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 11:32:14,875 - INFO - DB 연결 종료
+2024-09-13 11:45:21,293 - INFO - DB 연결 테스트 중...
+2024-09-13 11:45:21,293 - ERROR - DB 연결 테스트 중 오류 발생: Textual SQL expression 'SELECT 1 FROM dual' should be explicitly declared as text('SELECT 1 FROM dual')
+2024-09-13 11:45:21,294 - INFO - DB 연결 테스트 종료
+2024-09-13 11:45:44,202 - INFO - DB 연결 테스트 중...
+2024-09-13 11:45:44,202 - ERROR - DB 연결 테스트 중 오류 발생: Textual SQL expression 'SELECT * FROM users' should be explicitly declared as text('SELECT * FROM users')
+2024-09-13 11:45:44,203 - INFO - DB 연결 테스트 종료
+2024-09-13 11:46:48,095 - INFO - DB 연결 테스트 중...
+2024-09-13 11:46:48,356 - ERROR - DB 연결 테스트 중 오류 발생: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 11:46:48,356 - INFO - DB 연결 테스트 종료
+2024-09-13 11:47:46,193 - INFO - DB 연결 테스트 중...
+2024-09-13 11:47:46,194 - ERROR - DB 연결 테스트 중 오류 발생: Textual SQL expression 'SELECT 1 FROM dual' should be explicitly declared as text('SELECT 1 FROM dual')
+2024-09-13 11:47:46,194 - INFO - DB 연결 테스트 종료
+2024-09-13 11:47:48,483 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:47:48,846 - INFO - DB 연결 성공
+2024-09-13 11:47:48,861 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 11:47:48,873 - INFO - DB 연결 종료
+2024-09-13 11:48:16,944 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:48:17,299 - INFO - DB 연결 성공
+2024-09-13 11:48:17,313 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 11:48:17,325 - INFO - DB 연결 종료
+2024-09-13 11:56:04,686 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 11:56:05,074 - INFO - DB 연결 성공
+2024-09-13 11:56:05,153 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 11:56:05,165 - INFO - DB 연결 종료
+2024-09-13 12:01:39,828 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:01:40,239 - INFO - DB 연결 성공
+2024-09-13 12:01:40,253 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 12:01:40,266 - INFO - DB 연결 종료
+2024-09-13 12:12:02,637 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:12:03,104 - INFO - DB 연결 성공
+2024-09-13 12:12:03,104 - ERROR - DB 연결 테스트 중 오류 발생: Textual SQL expression 'SELECT 1 FROM dual' should be explicitly declared as text('SELECT 1 FROM dual')
+2024-09-13 12:12:03,131 - INFO - DB 연결 종료
+2024-09-13 12:13:14,561 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:13:14,925 - INFO - DB 연결 성공
+2024-09-13 12:13:14,925 - ERROR - DB 연결 테스트 중 오류 발생: Textual SQL expression 'SELECT 1 FROM dual' should be explicitly declared as text('SELECT 1 FROM dual')
+2024-09-13 12:13:14,936 - INFO - DB 연결 종료
+2024-09-13 12:14:09,062 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:14:09,443 - INFO - DB 연결 성공
+2024-09-13 12:14:09,680 - ERROR - DB 연결 테스트 중 오류 발생: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:14:09,693 - INFO - DB 연결 종료
+2024-09-13 12:15:24,031 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:15:24,420 - INFO - DB 연결 성공
+2024-09-13 12:15:24,435 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 12:15:24,449 - INFO - DB 연결 종료
+2024-09-13 12:23:26,544 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:23:26,951 - INFO - DB 연결 성공
+2024-09-13 12:23:26,996 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 12:23:27,010 - INFO - DB 연결 종료
+2024-09-13 12:31:23,717 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:31:24,078 - INFO - DB 연결 성공
+2024-09-13 12:31:24,093 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 12:31:24,105 - INFO - DB 연결 종료
+2024-09-13 13:13:38,185 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 13:13:38,532 - INFO - DB 연결 성공
+2024-09-13 13:13:38,548 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 13:13:38,559 - INFO - DB 연결 종료
+2024-09-13 13:56:45,200 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 13:56:45,593 - INFO - DB 연결 성공
+2024-09-13 13:56:45,609 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 13:56:45,621 - INFO - DB 연결 종료
+2024-09-13 14:09:34,471 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 14:09:34,840 - INFO - DB 연결 성공
+2024-09-13 14:09:34,854 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 14:09:34,866 - INFO - DB 연결 종료
+2024-09-13 14:22:59,142 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 14:23:01,505 - INFO - DB 연결 성공
+2024-09-13 14:23:01,765 - INFO - 쿼리 실행 성공, 결과: (21, 'admin', 'ktw1398@gmail.com', '123', datetime.datetime(2024, 9, 13, 11, 13, 46, 816440))
+2024-09-13 14:23:01,813 - INFO - DB 연결 종료
+2024-09-13 15:47:02,701 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 15:47:03,089 - INFO - DB 연결 성공
+2024-09-13 15:47:03,107 - INFO - 쿼리 실행 성공, 결과: (23, 'asdf', 'example@example.com', '123', datetime.datetime(2024, 9, 13, 14, 23, 56, 117728))
+2024-09-13 15:47:03,119 - INFO - DB 연결 종료

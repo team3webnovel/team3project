@@ -1,0 +1,36 @@
+2024-09-13 11:09:58,927 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 11:10:15,710 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 11:54:25,381 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 11:55:55,645 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:01:54,404 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:08:30,742 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:37:26,647 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:39:54,206 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:42:53,549 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:44:56,245 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:47:07,638 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:47:08,048 - INFO - DB 연결 성공
+2024-09-13 12:47:45,678 - INFO - 데이터베이스 연결 시도 중... TNS_ADMIN 경로: C:\app\201-29\product\instantclient-basic-windows.x64-23.5.0.24.07\instantclient_23_5\network\admin\Wallet_OBDEHIFXDIX5MJDT
+2024-09-13 12:47:46,043 - INFO - DB 연결 성공
+2024-09-13 12:47:53,309 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 12:50:51,327 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 13:50:58,537 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 13:51:17,810 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 13:56:25,568 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2024-09-13 14:09:46,933 - ERROR - Error during registration: (cx_Oracle.DatabaseError) ORA-12547: TNS:연결이 끊어졌습니다
+(Background on this error at: https://sqlalche.me/e/20/4xp6)

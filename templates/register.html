@@ -37,5 +37,20 @@
             이미 계정이 있으신가요? <a href="/login">로그인</a>
         </div>
     </div>
+
+    <!-- 백엔드에서 전달된 메시지가 있을 경우 JavaScript로 알림창 띄우기 -->
+    <script>
+        // 템플릿에서 message와 status 변수 받아오기
+        const message = "{{ message|safe }}";  // message는 백엔드에서 전달됨
+        const status = "{{ status|safe }}";    // status는 성공 또는 실패 상태
+
+        if (message) {
+            if (status === "success") {
+                alert("성공: " + message);
+            } else {
+                alert("오류: " + message);
+            }
+        }
+    </script>
 </body>
 </html>
